@@ -67,7 +67,7 @@ export const Navbar = ({ language, setLanguage, theme, setTheme, onShare }: Navb
       />
       <button 
         onClick={onShare} 
-        className="bg-blue-600 hover:bg-blue-500 text-white px-5 py-1.5 rounded-md font-bold text-sm transition-all active:scale-95 shadow-lg shadow-blue-500/20 flex items-center gap-2 ml-1"
+        className="cursor-pointer bg-blue-600 hover:bg-blue-500 text-white px-5 py-1.5 rounded-md font-bold text-sm transition-all active:scale-95 shadow-lg shadow-blue-500/20 flex items-center gap-2 ml-1"
       >
         <TbShare size={16} /> Share
       </button>

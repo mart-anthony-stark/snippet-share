@@ -30,7 +30,7 @@ export const EditorWindow = ({ children, fileName, language, theme, themeBg, onC
       </div>
       <div className="flex items-center gap-4 text-[10px] font-mono opacity-40 uppercase tracking-tighter">
         <span>Line 1, Col 1</span>
-        <button onClick={onCopy} className="hover:opacity-100 flex items-center gap-1 transition-opacity py-1 px-2 hover:bg-white/5 rounded text-slate-300">
+        <button onClick={onCopy} className="cursor-pointer hover:opacity-100 flex items-center gap-1 transition-opacity py-1 px-2 hover:bg-white/5 rounded text-slate-300">
           <TbCopy size={14} /> Copy
         </button>
       </div>
